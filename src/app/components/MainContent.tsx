@@ -86,7 +86,7 @@ const StyledTypography = styled(Typography)({
   WebkitBoxOrient: "vertical",
 });
 
-function Author({ authors }: { authors: { name: string; avatar: string }[] }) {
+function Author() {
   return (
     <Box
       sx={{
@@ -106,7 +106,7 @@ function Author({ authors }: { authors: { name: string; avatar: string }[] }) {
           alignItems: "center",
         }}
       ></Box>
-      <Typography variant="caption">July 14, 2021</Typography>
+      <Typography variant="caption">Sep 14, 2024</Typography>
     </Box>
   );
 }
