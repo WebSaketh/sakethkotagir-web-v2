@@ -105,11 +105,7 @@ function Author({ authors }: { authors: { name: string; avatar: string }[] }) {
           gap: 1,
           alignItems: "center",
         }}
-      >
-        {/* <Typography variant="caption">
-          {authors.map((author) => author.name).join(", ")}
-        </Typography> */}
-      </Box>
+      ></Box>
       <Typography variant="caption">July 14, 2021</Typography>
     </Box>
   );
