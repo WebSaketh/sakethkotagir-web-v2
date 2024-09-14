@@ -115,7 +115,7 @@ export default function ResponsiveAppBar() {
               textDecoration: "none",
             }}
           >
-            SAKETH KOTAGIRI
+            S|K
           </Typography>
           <Box
             sx={{

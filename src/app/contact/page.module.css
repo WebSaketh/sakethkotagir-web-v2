@@ -116,6 +116,19 @@ a.secondary {
   display: flex;
 }
 
+.contactcard {
+  display: flex;
+  flex-direction: row;
+}
+
+.contactpicture {
+  height: "150px";
+  width: "150px";
+  padding: "20px";
+  background-color: "blue";
+  border-radius: "10%";
+}
+
 /* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {
   a.primary:hover {
@@ -134,19 +147,39 @@ a.secondary {
   }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 900px) {
   .main {
     padding-left: 10%;
     padding-right: 10%;
   }
+  .contactcard {
+    flex-direction: column;
+    align-items: center;
+  }
 }
-
+@media (max-width: 700px) {
+  .p {
+    display: none;
+  }
+}
 @media (max-width: 1200px) {
   .panels {
     flex-direction: column;
   }
+
+  .contactpicture {
+    height: "50px";
+    width: "50px";
+  }
 }
-/* @media (max-width: 600px) {
+
+@media (max-width: 600px) {
+  .contactpicture {
+    width: "50px";
+    height: "5s0px";
+  }
+}
+/*
   .page {
     padding-top: 18px;
     padding-bottom: 80px;
