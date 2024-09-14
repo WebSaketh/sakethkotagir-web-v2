@@ -172,7 +172,7 @@ export default function MainContent() {
                 {cardData[0].description}
               </StyledTypography>
             </SyledCardContent>
-            <Author authors={cardData[0].authors} />
+            <Author />
           </SyledCard>
         </Grid>
         <Grid size={{ xs: 12, md: 6 }}>
@@ -208,7 +208,7 @@ export default function MainContent() {
                 {cardData[1].description}
               </StyledTypography>
             </SyledCardContent>
-            <Author authors={cardData[1].authors} />
+            <Author />
           </SyledCard>
         </Grid>
         <Grid size={{ xs: 12, md: 4 }}>
@@ -244,7 +244,7 @@ export default function MainContent() {
                 {cardData[2].description}
               </StyledTypography>
             </SyledCardContent>
-            <Author authors={cardData[2].authors} />
+            <Author />
           </SyledCard>
         </Grid>
         <Grid size={{ xs: 12, md: 4 }}>
@@ -288,7 +288,7 @@ export default function MainContent() {
                   </StyledTypography>
                 </div>
               </SyledCardContent>
-              <Author authors={cardData[3].authors} />
+              <Author />
             </SyledCard>
             <SyledCard
               variant="outlined"
@@ -322,7 +322,7 @@ export default function MainContent() {
                   </StyledTypography>
                 </div>
               </SyledCardContent>
-              <Author authors={cardData[4].authors} />
+              <Author />
             </SyledCard>
           </Box>
         </Grid>
@@ -359,7 +359,7 @@ export default function MainContent() {
                 {cardData[5].description}
               </StyledTypography>
             </SyledCardContent>
-            <Author authors={cardData[5].authors} />
+            <Author />
           </SyledCard>
         </Grid>
       </Grid>
