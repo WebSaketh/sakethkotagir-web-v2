@@ -34,6 +34,7 @@ export default function ResponsiveAppBar() {
             variant="h6"
             noWrap
             component="a"
+            href="/"
             sx={{
               mr: 2,
               display: { xs: "none", md: "flex" },
@@ -79,6 +80,7 @@ export default function ResponsiveAppBar() {
                 <MenuItem
                   key={page}
                   onClick={handleCloseNavMenu}
+                  component="a"
                   href={"/" + page}
                 >
                   <Typography
@@ -101,6 +103,7 @@ export default function ResponsiveAppBar() {
             variant="h5"
             noWrap
             component="a"
+            href="/"
             sx={{
               mr: 2,
               display: { xs: "flex", md: "none" },
