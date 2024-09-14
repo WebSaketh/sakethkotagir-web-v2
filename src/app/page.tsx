@@ -111,7 +111,10 @@ export default function Home() {
         </Box>
         <Box
           sx={{
-            display: "flex",
+            display: {
+              xs: "none",
+              md: "flex",
+            },
             flexDirection: "column",
             gap: "32px",
           }}
