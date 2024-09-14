@@ -37,7 +37,7 @@ export default function Home() {
                   overflow: "visible",
                 }}
               >
-                hey there i'm ...
+                {"hey there i'm ..."}
               </Typography>
             </li>
             <li>
@@ -68,9 +68,9 @@ export default function Home() {
                   overflow: "visible",
                 }}
               >
-                I'm a computer science graduate and developer based in New York.
-                Here you can find my various projects and social media accounts.
-                Feel free to contact me or just explore my portfolio!
+                {
+                  "I'm a computer science graduate and developer based in New York. Here you can find my various projects and social media accounts. Feel free to contact me or just explore my portfolio!"
+                }
               </Typography>
             </li>
           </Box>

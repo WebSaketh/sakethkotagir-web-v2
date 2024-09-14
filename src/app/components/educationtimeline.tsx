@@ -9,14 +9,6 @@ import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import { Box, Typography, CardActions, Button } from "@mui/material";
 import SchoolIcon from "@mui/icons-material/School";
-const bull = (
-  <Box
-    component="span"
-    sx={{ display: "inline-block", mx: "2px", transform: "scale(0.8)" }}
-  >
-    •
-  </Box>
-);
 
 export default function EducationTimeLine() {
   return (

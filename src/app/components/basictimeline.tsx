@@ -9,14 +9,6 @@ import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import { Box, Typography, CardActions, Button } from "@mui/material";
 import WorkIcon from "@mui/icons-material/Work";
-const bull = (
-  <Box
-    component="span"
-    sx={{ display: "inline-block", mx: "2px", transform: "scale(0.8)" }}
-  >
-    •
-  </Box>
-);
 
 export default function BasicTimeline() {
   return (
@@ -141,27 +133,23 @@ export default function BasicTimeline() {
                 </li>
                 <li>
                   <Typography variant="body2">
-                    Demonstrated technical prowess by assembling workstations
-                    and skillfully replacing components, showcasing a hands-on
-                    approach to hardware management and ensuring a seamless and
-                    up-to-date computing environment.
+                    {
+                      "Demonstrated technical prowess by assembling workstations and skillfully replacing components, showcasing a hands-on approach to hardware management and ensuring a seamless and up-to-date computing environment."
+                    }
                   </Typography>
                 </li>
                 <li>
                   <Typography variant="body2">
-                    Took charge of the organization's Active Directory by
-                    proficiently managing Device OUs and maintained a proactive
-                    approach to maintaining a well-organized and efficient
-                    directory structure.
+                    {
+                      "Took charge of the organization's Active Directory by proficiently managing Device OUs and maintained a proactive approach to maintaining a well-organized and efficient directory structure."
+                    }
                   </Typography>
                 </li>
                 <li>
                   <Typography variant="body2">
-                    Maintained the organization's assets and inventory,
-                    contributing to the overall transparency and accountability
-                    of resources. This responsibility involved meticulous
-                    tracking and documentation, ensuring smooth and informed
-                    decision-making processes.
+                    {
+                      "Maintained the organization's assets and inventory, contributing to the overall transparency and accountability of resources. This responsibility involved meticulous tracking and documentation, ensuring smooth and informed decision-making processes."
+                    }
                   </Typography>
                 </li>
               </Box>

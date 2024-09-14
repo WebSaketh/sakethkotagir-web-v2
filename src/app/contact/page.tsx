@@ -57,9 +57,9 @@ export default function Home() {
                   Saketh Kotagiri
                 </Typography>
                 <Typography variant="body2" sx={{ color: "text.secondary" }}>
-                  Hi I'm Saketh, graduate and developer. Here's everything you
-                  might need to contact me. Feel free to reach out about
-                  projects, collaborations, or professional work.
+                  {
+                    "Hi I'm Saketh, graduate and developer. Here's everything you might need to contact me. Feel free to reach out about projects, collaborations, or professional work."
+                  }
                 </Typography>
               </Box>
             </Box>

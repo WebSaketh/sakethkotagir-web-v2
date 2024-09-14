@@ -115,7 +115,7 @@ export default function ResponsiveAppBar() {
               textDecoration: "none",
             }}
           >
-            S|K
+            {"S|K"}
           </Typography>
           <Box
             sx={{
