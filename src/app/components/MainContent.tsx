@@ -10,58 +10,46 @@ import { styled } from "@mui/material/styles";
 const cardData = [
   {
     img: "https://picsum.photos/800/450?random=1",
-    tag: "Engineering",
+    tag: "Datascience and Analytics",
     title:
       "Visualizing Gerrymandered District Plans with GerryChain and Leaflet",
     description:
-      "Our latest engineering tools are designed to streamline workflows and boost productivity. Discover how these innovations are transforming the software development landscape.",
-    authors: [
-      { name: "Remy Sharp", avatar: "/static/images/avatar/1.jpg" },
-      { name: "Travis Howard", avatar: "/static/images/avatar/2.jpg" },
-    ],
+      "I developed a full-stack React application for political redistricting analysis, featuring a responsive UI with Tailwind CSS and interactive maps using Leaflet JS. The backend, built with Spring Boot, supported complex data processing and analysis. I led a student team through the project, handling front-end and back-end development, data collection, and clustering. Using Stony Brook's supercomputer along with MPI and Slurm, I generated and analyzed over 15,000 redistricting plans, applying custom distance algorithms and K-Nearest Neighbors (KNN) for enhanced accuracy.",
   },
   {
     img: "https://picsum.photos/800/450?random=2",
-    tag: "Product",
+    tag: "Web Development",
     title: "Building an online presence using ReactJs, hosted by Vercel",
     description:
-      "Explore the key features of our latest product release that are helping businesses achieve their goals. From user-friendly interfaces to robust functionality, learn why our product stands out.",
-    authors: [{ name: "Erica Johns", avatar: "/static/images/avatar/6.jpg" }],
+      "I created a personal website to strengthen my online presence and showcase my professional skills. This portfolio site is built using ReactJS and NextJS, and is deployed on Vercel for seamless hosting and performance. Leveraging Material-UI allowed me to efficiently design and implement a clean and functional layout. The website features an organized structure with sections for an about me overview, resume, and contact information, all presented in a simple yet elegant web app. A well-crafted portfolio website like this is essential for highlighting one’s work, making a strong impression on potential clients or employers, and maintaining an accessible online presence.",
   },
   {
     img: "https://picsum.photos/800/450?random=3",
-    tag: "Design",
-    title: "Designing for the future: trends and insights",
+    tag: "Design. Databases. Development",
+    title: "Building a Full Stack Social Media App",
     description:
-      "Stay ahead of the curve with the latest design trends and insights. Our design team shares their expertise on creating intuitive and visually stunning user experiences.",
-    authors: [{ name: "Kate Morrison", avatar: "/static/images/avatar/7.jpg" }],
+      "Developed a sophisticated full-stack web application using ReactJS for the frontend and Node.js with Express for the backend. This project highlights expertise in both client and server-side technologies, including secure JWT-based authentication, efficient network calls with Axios, and state management using React Context API. The integration of these technologies ensures a robust, feature-rich application with capabilities for user profiling and analytics.",
   },
   {
     img: "https://picsum.photos/800/450?random=4",
-    tag: "Company",
-    title: "Our company's journey: milestones and achievements",
+    tag: "System Design",
+    title: "Dynamic Memory Allocation",
     description:
-      "Take a look at our company's journey and the milestones we've achieved along the way. From humble beginnings to industry leader, discover our story of growth and success.",
-    authors: [{ name: "Cindy Baker", avatar: "/static/images/avatar/3.jpg" }],
-  },
-  {
-    img: "https://picsum.photos/800/450?random=45",
-    tag: "Engineering",
-    title: "Pioneering sustainable engineering solutions",
-    description:
-      "Learn about our commitment to sustainability and the innovative engineering solutions we're implementing to create a greener future. Discover the impact of our eco-friendly initiatives.",
-    authors: [
-      { name: "Agnes Walker", avatar: "/static/images/avatar/4.jpg" },
-      { name: "Trevor Henderson", avatar: "/static/images/avatar/5.jpg" },
-    ],
+      "Revamped the memory management system in C by replacing the GNU C allocator with a custom paged and listed implementation. This project demonstrates advanced skills in C programming and algorithm development, showcasing the ability to design complex, efficient memory management solutions. ",
   },
   {
     img: "https://picsum.photos/800/450?random=6",
-    tag: "Product",
-    title: "Maximizing efficiency with our latest product updates",
+    tag: "Milestone",
+    title: "My Longest 4-Year Project",
     description:
-      "Our recent product updates are designed to help you maximize efficiency and achieve more. Get a detailed overview of the new features and improvements that can elevate your workflow.",
-    authors: [{ name: "Travis Howard", avatar: "/static/images/avatar/2.jpg" }],
+      "Completed a comprehensive 4-year program covering a wide range of topics, including Data Structures and Algorithms, Machine Learning, Web Development, System Design, Programming Languages, and Compilers. Proud to have accomplished this significant milestone.",
+  },
+  {
+    img: "https://picsum.photos/800/450?random=45",
+    tag: "Networks",
+    title: "Understanding The Internet",
+    description:
+      "Created a Python tool for recursively resolving DNS requests using root servers, enhancing my understanding of the DNS protocol. Additionally, developed another Python tool to analyze TCP network flows with data from Wireshark, further deepening my knowledge of networking protocols.",
   },
 ];
 
@@ -96,9 +84,6 @@ const SyledCardContent = styled(CardContent)({
 const StyledTypography = styled(Typography)({
   display: "-webkit-box",
   WebkitBoxOrient: "vertical",
-  // WebkitLineClamp: 2,
-  // overflow: "hidden",
-  // textOverflow: "ellipsis",
 });
 
 function Author({ authors }: { authors: { name: string; avatar: string }[] }) {
@@ -121,19 +106,9 @@ function Author({ authors }: { authors: { name: string; avatar: string }[] }) {
           alignItems: "center",
         }}
       >
-        {/* <AvatarGroup max={3}>
-          {authors.map((author, index) => (
-            <Avatar
-              key={index}
-              alt={author.name}
-              src={author.avatar}
-              sx={{ width: 24, height: 24 }}
-            />
-          ))}
-        </AvatarGroup> */}
-        <Typography variant="caption">
+        {/* <Typography variant="caption">
           {authors.map((author) => author.name).join(", ")}
-        </Typography>
+        </Typography> */}
       </Box>
       <Typography variant="caption">July 14, 2021</Typography>
     </Box>
