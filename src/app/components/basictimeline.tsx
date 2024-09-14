@@ -32,7 +32,7 @@ export default function BasicTimeline() {
             sx={{
               display: "flex",
               flexDirection: "column",
-              minWidth: 300,
+              // minWidth: 300,
               maxWidth: 700,
             }}
           >
@@ -40,7 +40,7 @@ export default function BasicTimeline() {
               sx={{
                 display: "flex",
                 flexDirection: "column",
-                minWidth: 300,
+                // minWidth: 300,
                 maxWidth: 700,
               }}
             >
@@ -99,7 +99,7 @@ export default function BasicTimeline() {
             sx={{
               display: "flex",
               flexDirection: "column",
-              minWidth: 300,
+              // minWidth: 300,
               maxWidth: 700,
             }}
           >
@@ -107,7 +107,7 @@ export default function BasicTimeline() {
               sx={{
                 display: "flex",
                 flexDirection: "column",
-                minWidth: 300,
+                // minWidth: 300,
                 maxWidth: 700,
               }}
             >

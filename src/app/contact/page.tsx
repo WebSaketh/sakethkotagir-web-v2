@@ -32,12 +32,12 @@ export default function Home() {
                 sx={{
                   height: {
                     xs: "300px",
-                    sm: "400px",
+                    sm: "300px",
                     md: "150px",
                   },
                   width: {
                     xs: "300px",
-                    sm: "400px",
+                    sm: "300px",
                     md: "150px",
                   },
                   padding: "20px",
