@@ -2,7 +2,7 @@ import Image from "next/image";
 import styles from "./page.module.css";
 import ResponsiveAppBar from "./components/responsiveappbar";
 import Typography from "@mui/material/Typography";
-import { Box, Container } from "@mui/material";
+import { Box } from "@mui/material";
 
 export default function Home() {
   return (

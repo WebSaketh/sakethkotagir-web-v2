@@ -1,7 +1,7 @@
 "use client";
 import styles from "./page.module.css";
 import ResponsiveAppBar from "@/app/components/responsiveappbar";
-import { Hidden, List, ListItem, Typography } from "@mui/material";
+import { List, ListItem, Typography } from "@mui/material";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import Box from "@mui/material/Box";
