@@ -27,7 +27,7 @@ export default function Home() {
             <Box className={styles.contactcard}>
               <Box
                 component="img"
-                src="/content/bg-flower-modified.png"
+                src="/content/about/profile_picture.jpeg"
                 sx={{
                   height: {
                     xs: "300px",
@@ -39,7 +39,7 @@ export default function Home() {
                     sm: "300px",
                     md: "150px",
                   },
-                  padding: "20px",
+                  margin: "20px",
                   backgroundColor: "",
                   borderRadius: "10%",
                 }}
