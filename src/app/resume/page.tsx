@@ -50,6 +50,17 @@ export default function Home() {
             </Box>
           </Box>
         </Box>
+        <Box
+          component="embed"
+          src="/content/kotagiri_saketh_resume_.pdf"
+          type="application/pdf"
+          sx={{
+            width: "100%",
+            height: "900px",
+            border: "1px solid #ccc",
+            borderRadius: "4px",
+          }}
+        />
       </main>
     </div>
   );

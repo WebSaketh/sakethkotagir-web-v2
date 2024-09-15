@@ -146,6 +146,10 @@ a.secondary {
     text-underline-offset: 4px;
   }
 }
+.contacts {
+  display: flex;
+  flex-direction: column;
+}
 
 @media (max-width: 900px) {
   .main {
@@ -160,6 +164,11 @@ a.secondary {
 @media (max-width: 700px) {
   .p {
     display: none;
+  }
+
+  .contacts {
+    display: flex;
+    flex-direction: row;
   }
 }
 @media (max-width: 1200px) {

@@ -74,7 +74,7 @@ export default function Home() {
                 justifyContent: "center",
               }}
             >
-              <List>
+              <List className={styles.contacts}>
                 <ListItem
                   component="a"
                   href="mailto:skotagiri99@gmail.com"
@@ -117,8 +117,6 @@ export default function Home() {
                     linkedin.com/in/saketh-kotagiri
                   </p>
                 </ListItem>
-              </List>
-              <List>
                 <ListItem
                   component="a"
                   href="https://github.com/websaketh"
@@ -138,27 +136,6 @@ export default function Home() {
                   />
                   <p className={styles.p} style={p_style}>
                     github.com/websaketh
-                  </p>
-                </ListItem>
-                <ListItem
-                  component="a"
-                  href="https://www.instagram.com/sakethkotagiri/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <InstagramIcon
-                    sx={{
-                      width: "50px",
-                      height: "50px",
-                      background:
-                        "radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%)",
-                      padding: "10px",
-                      borderRadius: "50%",
-                      color: "white",
-                    }}
-                  />
-                  <p className={styles.p} style={p_style}>
-                    @sakethkotagiri
                   </p>
                 </ListItem>
               </List>
