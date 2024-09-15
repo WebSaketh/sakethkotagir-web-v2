@@ -9,7 +9,7 @@ import { styled } from "@mui/material/styles";
 
 const cardData = [
   {
-    img: "https://picsum.photos/800/450?random=1",
+    img: "/content/about/gerrymandering.jpeg",
     tag: "Datascience and Analytics",
     title:
       "Visualizing Gerrymandered District Plans with GerryChain and Leaflet",
@@ -17,14 +17,14 @@ const cardData = [
       "I developed a full-stack React application for political redistricting analysis, featuring a responsive UI with Tailwind CSS and interactive maps using Leaflet JS. The backend, built with Spring Boot, supported complex data processing and analysis. I led a student team through the project, handling front-end and back-end development, data collection, and clustering. Using Stony Brook's supercomputer along with MPI and Slurm, I generated and analyzed over 15,000 redistricting plans, applying custom distance algorithms and K-Nearest Neighbors (KNN) for enhanced accuracy.",
   },
   {
-    img: "https://picsum.photos/800/450?random=2",
+    img: "/content/about/saketh_portfolio.png",
     tag: "Web Development",
     title: "Building an online presence using ReactJs, hosted by Vercel",
     description:
       "I created a personal website to strengthen my online presence and showcase my professional skills. This portfolio site is built using ReactJS and NextJS, and is deployed on Vercel for seamless hosting and performance. Leveraging Material-UI allowed me to efficiently design and implement a clean and functional layout. The website features an organized structure with sections for an about me overview, resume, and contact information, all presented in a simple yet elegant web app. A well-crafted portfolio website like this is essential for highlighting one’s work, making a strong impression on potential clients or employers, and maintaining an accessible online presence.",
   },
   {
-    img: "https://picsum.photos/800/450?random=3",
+    img: "/content/about/top5lister.png",
     tag: "Design. Databases. Development",
     title: "Building a Full Stack Social Media App",
     description:
@@ -45,7 +45,7 @@ const cardData = [
       "Completed a comprehensive 4-year program covering a wide range of topics, including Data Structures and Algorithms, Machine Learning, Web Development, System Design, Programming Languages, and Compilers. Proud to have accomplished this significant milestone.",
   },
   {
-    img: "https://picsum.photos/800/450?random=45",
+    img: "/content/about/networks_python.png",
     tag: "Networks",
     title: "Understanding The Internet",
     description:
