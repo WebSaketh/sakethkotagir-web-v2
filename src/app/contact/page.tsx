@@ -7,7 +7,6 @@ import CardContent from "@mui/material/CardContent";
 import Box from "@mui/material/Box";
 import Divider from "@mui/material/Divider";
 import EmailIcon from "@mui/icons-material/Email";
-import InstagramIcon from "@mui/icons-material/Instagram";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 
