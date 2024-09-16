@@ -125,19 +125,62 @@ export default function MainContent() {
   };
 
   return (
-    <Box sx={{ display: "flex", flexDirection: "column", gap: 4 }}>
-      <div>
+    <Box
+      sx={{
+        display: "flex",
+        flexDirection: "column",
+        gap: 4,
+      }}
+    >
+      <Box sx={{ display: "flex", flexDirection: "column" }}>
         <Typography
           variant="h3"
           gutterBottom
-          sx={{ fontFamily: "'Montserrat', sans-serif" }}
+          sx={{ fontFamily: "'Montserrat', sans-serif", alignSelf: "center" }}
         >
-          About
+          ABOUT
         </Typography>
-        <Typography sx={{ fontFamily: "'Montserrat', sans-serif" }}>
-          Some of my latest projects
-        </Typography>
-      </div>
+
+        <Card
+          sx={{
+            display: "flex",
+            flexDirection: {
+              xs: "column",
+              lg: "row",
+            },
+          }}
+        >
+          <Typography
+            sx={{ padding: "20px", fontFamily: "'Montserrat', sans-serif" }}
+          >
+            {
+              "I'm a dedicated student at Stony Brook University and have graduated in 2024 with a Bachelor's degree in Computer Science. My passion lies in the realm of full-stack application development and database programming, where I have honed my skills through hands-on experience. I am eagerly exploring opportunities for full-time positions as I have completed my degree, seeking to leverage my education, skills, and enthusiasm to contribute meaningfully to innovative projects and organizations."
+            }{" "}
+            <br /> <br />{" "}
+            {
+              "I've completed projects ranging from statistical analysis to web development to scripting. Each project incorporating different domain knowledge with different sets of expectations. Feel free to check out and read about my projects below. The source code for these projects can be found on my github at /WebSaketh."
+            }
+          </Typography>
+          <CardMedia
+            component="img"
+            sx={{
+              width: {
+                xs: "full",
+                lg: 300,
+              },
+            }}
+            image="/content/about/profile_picture.jpeg"
+            alt="Picture of Saketh"
+          />
+        </Card>
+      </Box>
+      <Typography
+        variant="h3"
+        gutterBottom
+        sx={{ fontFamily: "'Montserrat', sans-serif", alignSelf: "center" }}
+      >
+        PROJECTS
+      </Typography>
       <Grid container spacing={2} columns={12}>
         <Grid size={{ xs: 12, md: 6 }}>
           <SyledCard
